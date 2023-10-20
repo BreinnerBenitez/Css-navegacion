@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Barra_navegaci&oacute;n</title>
+<link rel="icon" href="img/foto.ico">
+<style type="text/css">
+/* reset css */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/* final reset */
+
+html{
+
+  background-color: rgb(15, 213, 240);
+}
+
+
+body {
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	padding: 20px;
+}
+
+#barra {
+
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 185px;
+  border-bottom: 1px dashed black ;
+
+}
+#barra a{
+
+color: black;
+font-size: 11px;
+text-transform: uppercase;
+text-decoration: none;
+border: 1px dashed black ;
+display: block;
+padding: 10px 0px 10px 30px;
+background-color: rgb(128, 128, 128);
+background-image: url(images/fondolink.png);
+background-repeat: no-repeat;
+background-position: 0px 2px;
+border-bottom: none;
+}
+
+#barra a:hover{
+
+  font-weight: bold;
+  background-color: white;
+  background-position: 3px 50%;
+}
+
+#inicio #junior,
+#amadalucia #lucia,
+#breinnerparchado #parchado,
+#lamano #mano,
+#sharingan #ojos,
+#ninjabreinner #ninja{
+
+  background-color: aqua;
+  background-position: 97% 100%;
+  font-weight: bold;
+  
+}
+
+.fondo{
+
+float: right ;
+margin: 0px auto;
+margin-top: -250px;
+border: 2px solid black;
+}
+
+</style>
+</head>
+<body id="inicio">
+ 
+  <ul id="barra">
+    <li><a href="index.html" id="junior">dev. Junior</a></li>
+    <li><a href="lucia.html" id="lucia">Lucia</a></li>
+    <li><a href="breinnerparchado.html" id="parchado">Parchado</a></li>
+    <li><a href="lamano.html" id="mano">Lamano</a></li>
+    <li><a href="sharingan.html" id="ojos">Sharingan</a></li>
+    <li><a href="ninjaBreinner.html" id="ninja">Ninja Dev</a></li>
+  </ul>
+
+  <div class="fondo" >
+    <img src="fondos/developerJunior.jpg" alt="icon">
+</div>
+</body>
+</html>
